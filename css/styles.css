@@ -1,0 +1,206 @@
+* {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.header {
+  padding-top: 23px;
+  margin-bottom: 35px;
+}
+.container {
+  max-width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header nav {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header nav::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: flex;
+  background-color: #828282;
+  margin-top: 30px;
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+}
+.header li a {
+  font-size: 18px;
+  color: #828282;
+}
+.header li:not(:last-child) {
+  margin-right: 40px;
+}
+.header li .active {
+  color: #000;
+}
+.hero {
+  padding-bottom: 100px;
+}
+.hero h2 {
+  font-size: 47px;
+  font-weight: 700;
+  color: #070707;
+  margin-bottom: 45px;
+}
+.hero img {
+  max-width: 920px;
+}
+.about-me {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+.about-me .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-me h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-me p {
+  max-width: 480px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #070707;
+}
+.about-me p:not(:last-child) {
+  margin-bottom: 35px;
+}
+.skills {
+  padding-top: 100px;
+  padding-bottom: 83px;
+}
+.skills .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 45px;
+}
+.skills p {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 80px;
+}
+.skills ul {
+  display: inherit;
+  list-style: none;
+}
+.skills li:not(:last-child) {
+  margin-right: 90px;
+}
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-color: #f6f6f6;
+}
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 68px;
+}
+.portfolio ul {
+  list-style: none;
+}
+.portfolio li a {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .clothes-shop {
+  margin-top: 15px;
+  margin-bottom: 125px;
+}
+.portfolio .reebok {
+  margin-top: 8px;
+  margin-bottom: 136px;
+}
+.portfolio .braun {
+  margin-top: 1px;
+}
+.contacts {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+.contacts .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts h2 {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 21px;
+}
+.contacts .first {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 78px;
+}
+.contacts .button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 37px;
+  width: 180px;
+  height: 42px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contacts ul {
+  list-style: none;
+  display: inherit;
+  margin-bottom: 44px;
+}
+.contacts li:not(:last-child) {
+  margin-right: 60px;
+}
+.contacts .second {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+}
