@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
-        <nav class="menu">
-            <!-- <h1>Heading of navigation</h1> -->
-            <ul>
-                <li>
-                    <a href="#home" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="#aboutme">About me</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contacts">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        </div>  
+            <nav class="header__menu">
+                <!-- <h1>Heading of navigation</h1> -->
+                <ul>
+                    <li>
+                        <a href="#home" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#aboutme">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="hero" id="home">
             <div class="container">
-              <h2>Denis Novik</h2>
-              <img src="img/avatar.jpg" alt="avatar" width="945" height="388">
+                <h2>Denis Novik</h2>
+                <img src="img/avatar.jpg" alt="avatar" width="945" height="388">
             </div>
         </section>
-        <section class="about-me">
+        <section class="about-me" id="aboutme">
             <div class="container">
-                <h2 id="aboutme">About me</h2>
+                <h2>About me</h2>
                 <p>Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it. </p>
-                <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p> 
+                <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
                 <p>Ready to implement excellent projects with wonderful people.</p>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
-                <h2 id="skills">Skills</h2>
+                <h2>Skills</h2>
                 <p>I work in such programs as</p>
                 <ul>
                     <li>
@@ -59,63 +65,64 @@
                         <img src="img/ilustrator.png" alt="adobe ilustator" width="167" height="224">
                     </li>
                     <li>
-                    <img src="img/after effects.png" alt="adobe after effects" width="167" height="224">
+                        <img src="img/after effects.png" alt="adobe after effects" width="167" height="224">
                     </li>
                     <li>
                         <img src="img/figma.png" alt="figma" width="167" height="223">
                     </li>
                 </ul>
-            </div>  
+            </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
-                <h2 id="portfolio">Portfolio</h2>
+                <h2>Portfolio</h2>
                 <ul>
                     <li>
-                        <img src="img/clothes.png" alt="portfolio clothes shop" width="937" height="510"> 
+                        <img src="img/clothes.png" alt="portfolio clothes shop" width="937" height="510">
                         <a href="#" class="clothes-shop">Online fashion store - <br> Homepage</a>
                     </li>
                     <li>
                         <img src="img/reebok.png" alt="portfolio reebok shop" width="937" height="522">
                         <a href="#" class="reebok">Reebok Store - Concept</a>
                     </li>
-                    <li> 
+                    <li>
                         <img src="img/braun.png" alt="portfolio braun shop" width="937" height="522">
                         <a href="#" class="braun">Braun Landing Page - Concept</a>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
-                <h2 id="contacts">Contacts</h2>
-                <p class="first">Want to know more or just chat?<br> You are welcome!</p>
-                <button type="button" class="button">Send Message</button>
+                <h2>Contacts</h2>
+                <p class="contacts__first">Want to know more or just chat?<br> You are welcome!</p>
+                <button class="contacts__button" type="button">Send Message</button>
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="img/Linkedin.png" alt="linkedin link" width="42" height="41" >
+                            <img src="img/Linkedin.png" alt="linkedin link" width="42" height="41">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                        <img src="img/instagram.png" alt="instagram link" width="40" height="40">
+                            <img src="img/instagram.png" alt="instagram link" width="40" height="40">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                        <img src="img/behance.png" alt="behance link" width="41" height="40">
+                            <img src="img/behance.png" alt="behance link" width="41" height="40">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                        <img src="img/dribble.png" alt="dribble link" width="40" height="40">
+                            <img src="img/dribble.png" alt="dribble link" width="40" height="40">
                         </a>
                     </li>
                 </ul>
-                <p class="second">Like me on <br> LinkedIn, Instagram, Behance,<br> Dribble</p>
+                <p>Like me on <br> LinkedIn, Instagram, Behance,<br> Dribble</p>
             </div>
-        </section> 
+        </section>
     </main>
 </body>
+
 </html>
